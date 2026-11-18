@@ -34,3 +34,15 @@ elif(b >= a and b >= c ):
     print(b, "is the largest number among", a , "and" , c)
 else:
     print(c , "is the largest number among", a , "and" , c) 
+
+
+
+username = input("enter your username:")
+password = input("enter correct password:")
+if username == "admin":
+    if password == "1234":
+        print("Login successful")
+    else:
+        print("incorrect password")
+else:
+    print("incorrect username")
